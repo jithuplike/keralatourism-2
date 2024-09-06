@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOURISM</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" type=" " href=" data:image/png;base64,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 ">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <header class=" bg-primary"   style=" position:fixed; width: 100%; z-index: 1;" >
+        <div class="row text-white">
+            <div class="col-md-3">
+              <i class="icons"><img id="icons" src="https://www.keralatourism.org/images/kt/kerala-tourism-title.png?d=18122017" alt=""></i>
+            </div>
+
+            <div class="col-md-9  my-auto">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  
+
+                    <button class=" ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                    
+                  
+                    <div class="collapse navbar-collapse"id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link text-white" href="#Explore kerala">Explore Kerala <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#Destinations">Destinations</a>
+                        </li>
+                         
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#Things to do">Things to do</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact-section">Contact Us</a>
+                          </li>
+                           
+                           
+
+                           
+                           </ul>
+                      
+                         
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+
+           
+        </div>
+
+    </header>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.keralatourism.org/images/banner/medium_desktop/tvm1-1920x650_(1).jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.keralatourism.org/images/banner/medium_desktop/ashtamudi_lake.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.keralatourism.org/images/banner/medium_desktop/destination-wedding-banner-1920.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.keralatourism.org/images/banner/medium_desktop/banner_malarickal_1920.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <section class="bg-light">
+      <div class="container">
+        <br>
+        <h1 class="text-center" id="Explore kerala">Explore Kerala</h1>
+        <br>
+        <div class="row"> 
+          <div class="col-lg-3">
+            <div class="container-exp">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/ecotourism.jpg" alt="Norway" style="width:100%;">
+              <div class="text-block">
+                <h4>ECOTOURISM</h4>
+                <p>Picturesque places are also silent</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="container-exp">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Kerala_Cuisine1.jpg" alt="Norway" style="width:100%;">
+              <div class="text-block">
+                <h4>KAPPA AND FISH CURRY</h4>
+                <p>The combination dish of kerala</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="container-exp">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Theyyam2.jpg" alt="Norway" style="width:100%;">
+              <div class="text-block">
+                <h4>KANNUR</h4>
+                <p>Tradition and nature beauty</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="container-exp">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/judaisam13.jpg" alt="Norway"  style="width: 100%;" >
+              <div class="text-block">
+                <h4>JUDAISM</h4>
+                <p>Judaism is an ethnic religion</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+<br>
+
+    <section class="bg-secondary">
+      <div class="container">
+        <br>
+        <h1 id="Destinations" class="text-center">Destinations</h1>
+        <br>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/museum_of_kerala_history.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Museum</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/thekkekudi_cave_temple2.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Thekkekudi cave Temple</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/kalamandalam2.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Kalamandalam</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Kuthampully1.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Handloom Village</h5>
+                
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+        <br>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/mannar.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Mannar</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/kunhimangalam.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Kunhimangalam</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/vyloppilli-samakrithi-bhavan.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">vylopilli</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/MANNANAM-.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Mannanam</h5>
+                
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="bg-secondary">
+      <div class="container">
+        <br>
+        <h1 style="color: whitesmoke;" id="Things to do" class="text-center">Things to do</h1>
+        <br>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/ayurveda6.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Ayurveda</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Paragliding.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Paraglyding</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Hiking.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Hiking</h5>
+                
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+        <br>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/mannar.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Mannar</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/kunhimangalam.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Kunhimangalam</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/vyloppilli-samakrithi-bhavan.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">vylopilli</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark text-white">
+              <img src="https://www.keralatourism.org/images/homecontentimage/desktop/MANNANAM-.jpg " class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Mannanam</h5>
+                
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+
+    </section>
+    <br>
+
+    <section class="bg-light p-5" id="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Name</label>
+                  <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Place</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="Place">
+                </div>
+              </div>
+
+              <div class="form-row"> 
+              <div class="form-group col-md-6">
+                <label for="inputAddress">Email</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Email">
+              </div>
+
+              <div class="form-group col-md-6">
+                <label for="inputAddress">Mobile</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Mobile">
+              </div>
+            </div>
+              <div class="form-group">
+                <label for="inputAddress2">Message</label>
+                <textarea class="form-control" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+              </div> 
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary text-center" style="width:100%" >Submit</button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <footer class="bg-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center text-white"> 
+            <a href="https://www.instagram.com/accounts/login/?hl=en"> 
+            <img width="25" height="25" src="https://img.icons8.com/sf-ultralight/25/instagram-new.png" alt="instagram-new">
+          </a>
+            <p>Copyright</p>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+ 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+</body>
+</html>

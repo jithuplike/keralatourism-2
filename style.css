@@ -1,0 +1,25 @@
+#icons{
+    width: 200px;
+    height: auto;
+    padding: 15px;
+}
+
+.container-exp{
+    .container {
+        position: relative;
+      }
+      
+      
+      .text-block {
+        position:absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color:none;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+}
+#Destinations{
+    color: whitesmoke;
+}
